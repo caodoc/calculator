@@ -1,0 +1,122 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	top: 0;
+	overflow: auto;
+    background-color: #404258;
+	font-family: "Fira Mono", monospace;
+}
+
+#container 
+{
+	position: relative;
+    padding-top: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#box
+{
+    width: 90%;
+    height: max-content;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: #50577A;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#content
+{
+	overflow: hidden;
+	position: relative;
+    width: 100%;
+    height: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	white-space: pre-wrap;
+    background-color: #f3f5ff;
+    border-radius: 15px 15px 15px 15px;
+	color: #000000;
+}
+
+#article
+{
+	display: flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	flex-direction: row;
+}
+
+.btn
+{
+	position: relative;
+	top: 25px;
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	user-select: none;
+}
+
+.row
+{
+	display: flex;
+	gap: 20px;
+}
+
+.sqr
+{
+	width: 50px;
+	height: 50px;
+	background-color: #00425A;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #002a3a;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#github
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.equal
+{
+	width: 50px;
+	height: 120px;
+	background-color: #9557eb;
+	border-radius: 35px 35px 35px 35px;
+	border: none;
+}
+
+.clear
+{
+	background-color: #FF6666;
+	border: none;
+}
+
+.backspace
+{
+	background-color: #677eff;
+	border: none;
+}
